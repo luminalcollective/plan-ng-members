@@ -1,0 +1,28 @@
+
+/*
+ * ==========================================================================
+ * PLAN MEMBER CHECKER PORTAL
+ * Global Stylesheet Entry Point
+ * ==========================================================================
+ *
+ * Imports the shared PLAN Ecosystem Design System and portal-specific styles.
+ *
+ * Import order:
+ * 1. Design tokens
+ * 2. Themes
+ * 3. Base styles
+ * 4. Portal components
+ * ==========================================================================
+ */
+
+/* 01. Design System Tokens */
+@import "./css/tokens/tokens.css";
+
+/* 02. Themes */
+@import "./css/themes/themes.css";
+
+/* 03. Base Styles */
+@import "./css/base/base.css";
+
+/* 04. Portal Components */
+@import "./css/components/membership-checker.css";
